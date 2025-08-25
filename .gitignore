@@ -1,0 +1,1 @@
+-e "# Python\n__pycache__/\n*.py[cod]\n*.pyc\n\n# Virtual environments\nrobust_monitoring_env/\n\n# Large files\ndata/\nmodels/\n*.pt\n*.zip" 
