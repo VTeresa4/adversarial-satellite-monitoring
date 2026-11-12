@@ -1,25 +1,28 @@
-# ── Model Weights & Checkpoints ─────────────────────────────────────────────
+# Environments
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+.vscode/
+.ipynb_checkpoints/
+
+# Model weights (too large for GitHub; D-GAN is ~131 MB)
 *.pth
 *.pt
+*.onnx
+*.ckpt
+
+# Local clones, outputs, datasets
 yolov5/
-
-# ── Outputs, Logs & Visualizations ────────────────────────────────----------
 outputs/
+runs/
+data/
+*.zip
+alerts/
+alert.json
+
+# Runtime files
+static/uploads/
 static/outputs/
-*.jpg
-*.png
-
-# ── Python Cache & Virtual Environments ─────────────────────────────────────
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-*.pyc
-*.pyo
-venv/
-.env
-
-# ── Operating System / IDE Specific ─────────────────────────────────────────
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+ar-sms/static/uploads/
+ar-sms/static/outputs/
