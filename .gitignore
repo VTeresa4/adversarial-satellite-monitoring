@@ -6,7 +6,7 @@ __pycache__/
 .vscode/
 .ipynb_checkpoints/
 
-# Model weights (too large for GitHub; D-GAN is ~131 MB)
+# Model weights
 *.pth
 *.pt
 *.onnx
